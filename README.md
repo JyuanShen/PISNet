@@ -8,4 +8,10 @@ A dataset of the time-frequency spectrograms of SAR echoes with RFI, which can b
 BaiduNetdisk: https://pan.baidu.com/s/1cONUOWE60QoHzs-R_tdc5w  Password: foyr
 
 ## Code
-The code is coming soon.
+* Currently the network is suitable for dealing with interference intensity similar to that in SarTF Dataset. If the difference in the ISR (Interference-Signal-Ratio) is too large (eg. the ISR too low), the performance may be degraded. The ISR of the training set should be adjusted accordingly. 
+* For specific training details, please refer to the experiment and discussion chapters of our paper.
+
+## Cite
+If you want to use this SarTF dataset or use PISNet as contrast model, please cite as follows
+
+> J. Shen, B. Han, Z. Pan, G. Li, Y. Hu and C. Ding, "Learning Time–Frequency Information With Prior for SAR Radio Frequency Interference Suppression," in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-16, 2022, Art no. 5239716.
