@@ -8,7 +8,7 @@ A dataset of the time-frequency spectrograms of SAR echoes with RFI, which can b
 BaiduNetdisk: https://pan.baidu.com/s/1cONUOWE60QoHzs-R_tdc5w  Password: foyr
 
 ## Code
-* Currently the network is suitable for dealing with interference intensity similar to that in SarTF Dataset. If the difference in the ISR (Signal-Interference-Ratio) is too large (eg. the SIR too low), the performance may be degraded. The SIR of the training set should be adjusted accordingly. 
+* Currently the network is suitable for dealing with interference intensity similar to that in SarTF Dataset. If the difference of the Signal-Interference-Ratio (SIR) is significant (eg. the SIR too small), the processing performance may be degraded. The SIR of the training set should be adjusted accordingly. 
 * For specific training details, please refer to the experiment and discussion chapters of our paper.
 
 ## Cite
